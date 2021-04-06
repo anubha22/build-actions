@@ -1,6 +1,6 @@
 # Building a workflow with Docker and Actions
 
-name: Building Docker Test
+name: Docker Series Builds
 
 # Controls when the action will run. 
 on:
