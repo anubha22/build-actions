@@ -38,4 +38,4 @@ jobs:
           
       # Run a set of other commands using the runners shell
       - name: Run a one-line test script
-        run: echo Hello, test script!
+        run: echo Hello, build docker script
