@@ -1,6 +1,6 @@
 # Building a workflow with Docker and Actions
 
-name: Building Docker test
+name: Building Docker Test
 
 # Controls when the action will run. 
 on:
@@ -35,3 +35,7 @@ jobs:
           echo What is in this directory
           ls -a
           echo
+          
+      # Run a set of other commands using the runners shell
+      - name: Run a one-line test script
+        run: echo Hello, test script!
